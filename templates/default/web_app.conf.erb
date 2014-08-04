@@ -1,0 +1,4 @@
+<VirtualHost *:<%= node['apache']['listen_ports'] %>>
+    ServerName <%= @params[:server_name] %>
+    DocumentRoot <%= @params[:docroot] %>
+</VirtualHost>
